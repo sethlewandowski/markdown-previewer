@@ -7,13 +7,6 @@ import marked from 'marked';
 const initalState = `
   Welcome to markdown previewer.
 
-  # Things you can do
-  - You can play with **headings** using #
-  - You can test **[links]**(https://www.sethlewandowski.com)
-  - You can play with \`<div>**code**</div>\`
-  - And even carriage returns like this 
-  - - Now you see me \r now you don't 
-
   ## Code blocks
   \`\`\`
   const getFunky = (you) => {
@@ -30,6 +23,14 @@ const initalState = `
 
   ## Images
   ![random cool image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.XDUweOQ0UMr08MbHOm8laAHaEo%26pid%3DApi&f=1)
+
+  # Things you can do
+  * You can play with **headings** using #
+  * You can test **[links]**(https://www.sethlewandowski.com)
+  * You can play with \`<div>**code**</div>\`
+  * And even carriage returns like this 
+  * Now you see me \r now you don't
+
 `;
 
 
