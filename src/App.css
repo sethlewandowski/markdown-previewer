@@ -57,8 +57,14 @@ h3{
   background-color: white;
   color: black;
   overflow-wrap: anywhere;
+  max-height: 500px;
+  overflow: auto;
 }
 
 img {
   max-width: 80%;
+}
+
+.footer {
+  text-align: center;
 }

@@ -71,6 +71,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <p className="footer">by <a href="https://www.sethlewandowski.com">Seth Lewandowski</a></p>
       </div>
     )
   }
